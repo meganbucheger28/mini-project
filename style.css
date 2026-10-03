@@ -215,11 +215,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row-reverse;
+}
+
+#social .section__description {
+  flex-direction: row;
 }
 
 .about__row, .social__row {
   justify-content: start;
-  
 }
 
 .section__title {
@@ -231,12 +235,12 @@ footer {
 .section__img--wrapper {
   width: 60%;
   padding: 0 24px;
+  display: flex;
 }
 
 .section__description--wrapper {
   width: 70%;
   padding: 0 24px;
-  flex-direction: row-reverse;
 }
 
 .section__description--para {
