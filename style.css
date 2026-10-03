@@ -236,6 +236,7 @@ footer {
 .section__description--wrapper {
   width: 70%;
   padding: 0 24px;
+  flex-direction: row-reverse;
 }
 
 .section__description--para {
@@ -315,9 +316,9 @@ SMALLER SCREENS
 */
 
 @media (max-width: 1024px) {
-.section__description--para {
-  font-size: 20px;
-}
+  .section__description--para {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
